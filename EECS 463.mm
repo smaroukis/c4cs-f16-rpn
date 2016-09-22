@@ -1,0 +1,278 @@
+<map version="freeplane 1.3.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="EECS 463" ID="ID_1723255651" CREATED="1283093380553" MODIFIED="1473804117380" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<hook NAME="MapStyle">
+    <properties fit_to_viewport="false;"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node">
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
+<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="5"/>
+<node TEXT="Homeworks" POSITION="right" ID="ID_1490438985" CREATED="1473804118642" MODIFIED="1473804124586" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+<node TEXT="Homework 1" ID="ID_1613784845" CREATED="1473804124884" MODIFIED="1473804126519" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+<node TEXT="Equations Used:" ID="ID_1920221606" CREATED="1473804135363" MODIFIED="1473804138402" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+<node TEXT="\latex $ V = IZ_{eq} $" ID="ID_547470369" CREATED="1473804138866" MODIFIED="1473804175953" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex $ I_1 = \frac{I_2}{I_1+I_2} I_{in} $" ID="ID_1842937491" CREATED="1473804176320" MODIFIED="1473804218709" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex pf = cos(\theta_v - \theta_i)" ID="ID_526763566" CREATED="1473804219874" MODIFIED="1473804251765" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex  $ S = \tilde{V}\tilde{I}^* $" ID="ID_1635027063" CREATED="1473804258220" MODIFIED="1473804310792" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex $ S = P + j Q $" ID="ID_1080645332" CREATED="1473804419169" MODIFIED="1473804427804" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex $ P = V_{rms}I_{rms}cos(\theta_v - \theta_i) $" ID="ID_407869734" CREATED="1473804428233" MODIFIED="1473804455234" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex $ Q = V_{rms}I_{rms}sin(\theta_v - \theta_i)" ID="ID_12117748" CREATED="1473804389737" MODIFIED="1473804407364" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex peak magnetic energy (inductor) $ W = LI^2 $" ID="ID_78995779" CREATED="1473804284896" MODIFIED="1473804341686" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+<node TEXT="\latex reactive power $ Q = \omega W $" ID="ID_1960642909" CREATED="1473804342923" MODIFIED="1473804377001" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+</node>
+</node>
+</node>
+<node TEXT="Homework 2" ID="ID_422692460" CREATED="1474380548895" MODIFIED="1474380558676" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#ff0000" WIDTH="thin"/>
+<node TEXT="Equations Used" ID="ID_1794108363" CREATED="1474518239329" MODIFIED="1474518244118">
+<node TEXT="\latex $ S = VI^* $" ID="ID_761577378" CREATED="1474518244362" MODIFIED="1474518468516"/>
+<node TEXT="convert sinusoidal mag &gt; phasor mag (rms)" ID="ID_1301227528" CREATED="1474518469882" MODIFIED="1474518498448">
+<node TEXT="\latex divide by $ \sqrt{2} $" ID="ID_1788295875" CREATED="1474518503919" MODIFIED="1474518520748"/>
+</node>
+<node TEXT="\latex $ Q_2 = P_1 * tan(p.f.)" ID="ID_635428860" CREATED="1474518522345" MODIFIED="1474518953288">
+<node TEXT="\latex $ Q = P*tan(cos^{-1}(p.f.)) $" ID="ID_1561227234" CREATED="1474518920263" MODIFIED="1474518943646"/>
+</node>
+<node TEXT="\latex $ \phi_{v-i} = tan^{-1}(Q/P) $" ID="ID_1625674219" CREATED="1474518597770" MODIFIED="1474518761853"/>
+<node TEXT="\latex $ \phi_{v-i} = cos^{-1}(p.f.) $" ID="ID_1914277114" CREATED="1474518651349" MODIFIED="1474518766876"/>
+<node TEXT="\latex $ Q_c = Q_2-Q_1 $" ID="ID_581942596" CREATED="1474518769711" MODIFIED="1474518784656"/>
+<node TEXT="\latex $ Q_C = -jV^2 \omega C" ID="ID_1716300356" CREATED="1474518962379" MODIFIED="1474518991863">
+<node TEXT="\latex $ Q_{C,sup} = V^2 \omega C $" ID="ID_1032855272" CREATED="1474519006507" MODIFIED="1474519028972"/>
+</node>
+<node TEXT="\latex \displaystyle $ Z_{eq} = \frac{Z_1Z_2}{Z_1+Z_2}$" ID="ID_1978046105" CREATED="1474518785140" MODIFIED="1474518833764"/>
+<node TEXT="current division" ID="ID_1974716600" CREATED="1474518821498" MODIFIED="1474518852734">
+<node TEXT="\latex \displaystyle $ I_1 = \frac{Z_2}{Z_1+Z_2} I_{total} $" ID="ID_109002914" CREATED="1474518852980" MODIFIED="1474518890953"/>
+</node>
+<node TEXT="" ID="ID_1819146974" CREATED="1474518808368" MODIFIED="1474518808368"/>
+</node>
+<node TEXT="Topics" ID="ID_1221929015" CREATED="1474518257484" MODIFIED="1474518260454">
+<node TEXT="Power Triangle" ID="ID_198093049" CREATED="1474518261254" MODIFIED="1474518263552"/>
+<node TEXT="Single Phase Power" ID="ID_1710957456" CREATED="1474518264697" MODIFIED="1474518270548"/>
+<node TEXT="Inductive Loads" ID="ID_630286326" CREATED="1474518270944" MODIFIED="1474518274933"/>
+<node TEXT="Capacitive Loads" ID="ID_764584174" CREATED="1474518275171" MODIFIED="1474519074518">
+<node TEXT=" absorb reactive power, supply negative reactive power" ID="ID_431568876" CREATED="1474519075621" MODIFIED="1474519076603"/>
+<node TEXT="have -Q" ID="ID_204423320" CREATED="1474519077291" MODIFIED="1474519088334"/>
+</node>
+<node TEXT="lagging power factor" ID="ID_521432122" CREATED="1474518292943" MODIFIED="1474518301131">
+<node TEXT="positive angle" ID="ID_8341843" CREATED="1474518301499" MODIFIED="1474518325281"/>
+<node TEXT="negative current angle" ID="ID_1296584712" CREATED="1474518325545" MODIFIED="1474518333303"/>
+<node TEXT="Inductive load" ID="ID_897877254" CREATED="1474518351945" MODIFIED="1474518364993"/>
+<node TEXT="P and Q same sign" ID="ID_1510987538" CREATED="1474518365201" MODIFIED="1474518369405"/>
+</node>
+<node TEXT="leading power factor" ID="ID_1216863865" CREATED="1474518371688" MODIFIED="1474518374082">
+<node TEXT="negative v-i angle" ID="ID_350405570" CREATED="1474518374452" MODIFIED="1474518380384"/>
+<node TEXT="positive voltage angle (ref to ang V)" ID="ID_189285211" CREATED="1474518380665" MODIFIED="1474518403149"/>
+<node TEXT="capacitive load" ID="ID_1743377057" CREATED="1474518404871" MODIFIED="1474518407625"/>
+<node TEXT="P and Q opposite sign" ID="ID_482894344" CREATED="1474518408051" MODIFIED="1474518412041"/>
+</node>
+<node TEXT="Add Complex Power" ID="ID_1500905014" CREATED="1474518421271" MODIFIED="1474518428876"/>
+</node>
+</node>
+</node>
+<node TEXT="Week 1 &amp; 2" POSITION="left" ID="ID_102383097" CREATED="1474377935790" MODIFIED="1474377951465" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="Fundamentals" ID="ID_1730178085" CREATED="1474377981979" MODIFIED="1474377997869" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="Parseval&apos;s Theorem" ID="ID_302938574" CREATED="1474377998555" MODIFIED="1474378005268" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="RMS" ID="ID_966388174" CREATED="1474378005635" MODIFIED="1474378009476" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="Euler&apos;s Identity" ID="ID_1433673347" CREATED="1474378009979" MODIFIED="1474378014844" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="Phasors" ID="ID_1171675819" CREATED="1474378020375" MODIFIED="1474378021913" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="Instantaneous Power" ID="ID_887457231" CREATED="1474378022511" MODIFIED="1474378036726" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="Complex Power" ID="ID_423320997" CREATED="1474378037100" MODIFIED="1474378044808" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="\latex  $ \theta_i - \theta_v &lt; 0 $" ID="ID_1302670058" CREATED="1474381941495" MODIFIED="1474381982867" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="I leads V" ID="ID_757675295" CREATED="1474381982998" MODIFIED="1474381989169" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="leading p.f." ID="ID_1257386233" CREATED="1474381989686" MODIFIED="1474381993329" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="capacitive load" ID="ID_1799065123" CREATED="1474381993806" MODIFIED="1474381998089" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="P &amp; Q have opposite sign" ID="ID_1762611682" CREATED="1474381998414" MODIFIED="1474382005369" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="" ID="ID_945490196" CREATED="1474382009502" MODIFIED="1474382009502" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="\latex  $ \theta_i - \theta_v &gt;   0 $" ID="ID_294851023" CREATED="1474381941495" MODIFIED="1474382037109" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="I lags V" ID="ID_1239302990" CREATED="1474381982998" MODIFIED="1474382041091" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="lagging p.f." ID="ID_730937726" CREATED="1474381989686" MODIFIED="1474382044348" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="inductive load" ID="ID_822503766" CREATED="1474381993806" MODIFIED="1474382047771" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="P &amp; Q have same sign" ID="ID_809246582" CREATED="1474381998414" MODIFIED="1474382051203" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="Week 3" POSITION="left" ID="ID_1052271494" CREATED="1474377943422" MODIFIED="1474377947424" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="Balanced Voltages (Source)" ID="ID_1384628763" CREATED="1474377956014" MODIFIED="1474378601555" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="phase shift of 120 deg" ID="ID_28072318" CREATED="1474378077910" MODIFIED="1474378091119" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="equal magnitudes" ID="ID_1326646873" CREATED="1474378091277" MODIFIED="1474378094271" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="\latex $ V_{l-l} = \sqrt{3} V_{l-n} \angle 30^{\circ} $" ID="ID_1881288492" CREATED="1474378096837" MODIFIED="1474378199381" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="power triangle.png" ID="ID_1326528972" CREATED="1474378188898" MODIFIED="1474379971578" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="power_triangel.png" ID="ID_405632172" CREATED="1474379906702" MODIFIED="1474379906722" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<hook URI="463_figures/power_triangel.png" SIZE="0.7853403" NAME="ExternalObject"/>
+</node>
+</node>
+<node TEXT="balanced voltages (png)" ID="ID_1619536455" CREATED="1474378518233" MODIFIED="1474379953798" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="balanced_voltages.png" ID="ID_1679222659" CREATED="1474379939041" MODIFIED="1474379939050" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<hook URI="463_figures/balanced_voltages.png" SIZE="1.0" NAME="ExternalObject"/>
+</node>
+</node>
+</node>
+<node TEXT="Balanced Load" ID="ID_1679353629" CREATED="1474377974531" MODIFIED="1474377977701" COLOR="#000000" STYLE="as_parent" MAX_WIDTH="600" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="600.0 px" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+<node TEXT="Delta-Wye conversion for balanced loads" ID="ID_1723246127" CREATED="1474380532352" MODIFIED="1474380539794" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+<node TEXT="\latex $ Z \Delta = 3 Z_Y $" ID="ID_1733117671" CREATED="1474381822248" MODIFIED="1474381910203" COLOR="#000000" STYLE="fork" MAX_WIDTH="433" MIN_WIDTH="0" TEXT_ALIGN="DEFAULT" MAX_WIDTH_QUANTITY="10.0 cm" MIN_WIDTH_QUANTITY="0.0 cm">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+<edge STYLE="bezier" COLOR="#808080" WIDTH="thin"/>
+</node>
+</node>
+</node>
+</node>
+</map>
