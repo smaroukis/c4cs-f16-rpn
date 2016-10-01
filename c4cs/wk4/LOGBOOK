@@ -1,0 +1,54 @@
+ls
+cd c4cs/
+mkdir c4cs && cd c4cs/
+ls
+echo "I am the subject" > subject
+echo "bow to my prowress" > verb
+rm subject verb
+ls
+vi makefile
+make
+vi makefile 
+ls
+vi subject.sh
+vi verb.sh
+vi makefile 
+vi sentence.sh
+vi makefile 
+make
+chmod +x sentence.sh 
+make
+ls -l
+less sentence
+vi makefile 
+make
+ls
+make rm sentence subject verb 
+ls
+rm -r sentence verb
+ls
+rm subject
+ls
+make
+chmod +x subject.sh 
+ls
+chmod +x verb.sh
+ls
+make
+ls -l
+vi makefile 
+make clean
+vi makefile 
+make clean
+make
+vi makefile 
+vi sentence
+vi makefile 
+make clean
+vi sentence
+make
+cd se
+cd sentence
+ls
+vi sentence
+history -a LOGBOOK
