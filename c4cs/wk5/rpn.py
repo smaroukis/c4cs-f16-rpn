@@ -13,6 +13,16 @@ def calculate(myarg):
 			arg1 = stack.pop()
 			result = arg1 - arg2
 			stack.append(result)
+		elif token == '*':
+			arg2 = stack.pop()
+			arg1 = stack.pop()
+			result = arg1 * arg2
+			stack.append(result)	
+		elif token == '/':
+			arg2 = stack.pop()
+			arg1 = stack.pop()
+			result = arg1 / arg2
+			stack.append(result)
 		else:
 			stack.append(int(token))
 		print(stack)
@@ -22,7 +32,7 @@ def calculate(myarg):
 
 def main():
 	while True:
-		calculate(raw_input("rpn calc> "))
-
+		calculate(raw_input("rpn calc> ")) # use just 'input' for python3
+ 
 if __name__=="__main__":
 	main()	
