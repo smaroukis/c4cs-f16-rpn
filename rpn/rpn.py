@@ -1,13 +1,6 @@
+#!/usr/bin/env python3
+
 import operator
-
-def add(a,b):
-	return a + b
-
-def sub(a,b):
-	return a - b
-
-def mul(a,b):
-	return a*b
 
 
 operators = {
@@ -15,9 +8,7 @@ operators = {
 	'-': operator.sub,
 	'*': operator.mul,
 	'/': operator.truediv,
-
 }
-
 
 def calculate(myarg):
 	stack = list()
@@ -33,12 +24,13 @@ def calculate(myarg):
 			stack.append(result)
 		print(stack)
 	if len(stack) != 1:
-			raise TypeError("Too many parameters")
+		raise TypeError("Too many parameters")
 	return stack.pop()
 
 def main():
 	while True:
-		calculate(raw_input("rpn calc> ")) # use just 'input' for python3
- 
-if __name__=="__main__":
-	main()	
+		result = calculate(input("rpn calc> "))
+		print("Result: ", result)
+
+if __name__ == '__main__':
+	main()
